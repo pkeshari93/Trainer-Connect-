@@ -4,7 +4,8 @@
   "description": "Social netwrok for Fitness Trainers ",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "server": "nodemon server.js"
   },
   "author": "Prakhar Keshari",
   "license": "MIT",
@@ -18,5 +19,8 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
   }
 }
